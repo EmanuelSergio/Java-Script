@@ -1,2 +1,2 @@
-console.log("legallllllllll")
+console.log("legal 2")
 
