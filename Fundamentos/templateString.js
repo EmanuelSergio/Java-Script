@@ -7,7 +7,7 @@ const template = `
     ${nome}!
 `
 
-console.log(concatenacao, template);
+console.log(concatenacao, template);//função
 
 //expressoes
 
