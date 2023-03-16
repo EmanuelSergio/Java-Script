@@ -20,6 +20,7 @@ const subtracao = (a,b) => a - b //parece lambda
 
 console.log(subtracao(10,5));
 
+const imprimir2 = a => console.log(a);
 
-
+imprimir2('salve')
 
