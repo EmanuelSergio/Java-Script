@@ -6,4 +6,4 @@ const imprimirSoma = function(a,b){
 
 imprimirSoma(2,3)
 
-//armazenando uma função arrow em uma variavel
+//armazenando uma função arrow em uma variavel 
