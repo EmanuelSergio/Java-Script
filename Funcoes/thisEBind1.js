@@ -11,3 +11,5 @@ falar()
 
 const falarDePessoa = pessoa.falar.bind(pessoa);
 falarDePessoa()
+
+console.log(falarDePessoa);
