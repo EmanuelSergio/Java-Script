@@ -41,3 +41,4 @@ const obj = Object.assign(dest, o1, o2) //vai concatenar os objetos e substituir
 
 console.log(obj);
 
+
