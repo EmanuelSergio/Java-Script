@@ -24,3 +24,31 @@ const p2 = new Produto('notebook', 3000, 0.25)
 
 console.log(p1.getPrecoComDesconto(), p2.getPrecoComDesconto());
 
+//função factory
+
+function criarFuncionario(nome, salario, faltas){
+    return{
+        nome,
+        salario,
+        faltas,
+        getSalario(){
+            return (salario/30) * (30-faltas)
+        }
+    }
+}
+
+const f1 = criarFuncionario('joao', 7980, 4)
+const f2 = criarFuncionario('Maria', 11400, 1)
+console.log(f1.getSalario(), f2.getSalario());
+
+//Object.create
+
+const filha = Object.create(null)
+filha.nome = 'Ana'
+console.log(filha);
+
+//uma função famosa que retorna Objeto...
+
+const fromJSON = JSON.parse('{"info":"Sou um JSON"}')
+console.log(fromJSON.info);
+
