@@ -28,3 +28,4 @@ const obj5 = {
 }
 
 console.log(obj5);
+
