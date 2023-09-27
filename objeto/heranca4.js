@@ -21,4 +21,4 @@ obj2.falar()
 const obj3 = {}
 obj3.__proto__ = MeuObjeto.prototype //outro jeito de associar 
 obj3.nome = 'obj3'
-obj3.falar()
+obj3.falar() 
