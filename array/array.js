@@ -35,4 +35,5 @@ aprovados.splice()//serve pra add elementos ou remover ou add e remover ao mesmo
 aprovados.splice(1,2, 'elemente1', 'elemento2')//comecou a excluir a partir do idice 1 e excluiu dois indices e add dois elementos depois
 console.log(aprovados);
 
-aprovados.splice()
+aprovados.splice(1,0, 'elemente1', 'elemento2')//se eu não quiser excluir é so colocar 0 que ele vai comecar a add a partir do 1
+
