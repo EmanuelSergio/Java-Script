@@ -33,3 +33,4 @@ console.log(algunsPilotos);
 const algunsPilotos2 = pilotos.slice(1, 4)//vai pegar entre o 1 ate o 4, mas o 4 não é pegado 
 console.log(algunsPilotos2);
 
+    
